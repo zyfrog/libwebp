@@ -9,7 +9,7 @@
     "file": "COPYING"
   },
   "source": {
-    "git": "https://chromium.googlesource.com/webm/libwebp",
+    "git": "https://github.com/zyfrog/libwebp.git",
     "tag": "v1.0.3"
   },
   "compiler_flags": "-D_THREAD_SAFE",
