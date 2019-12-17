@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
     "demux",
     "mux"
   ]
-  spec.prepare_command = "sed -i.bak 's/<inttypes.h>/<stdint.h>/g' './src/webp/types.h'"
+  # spec.prepare_command = "sed -i.bak 's/<inttypes.h>/<stdint.h>/g' './src/webp/types.h'"
   spec.subspec 'webp' do |ss|
     ss.source_files = [
       "src/webp/decode.h",
